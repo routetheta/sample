@@ -3,3 +3,10 @@ os: linux
 files:
   - source: README.md
     destination: /
+hooks:
+  ApplicationStop:
+    - location: hoge.sh
+      timeout: 300
+  ApplicationStart:
+    - location: hoge.sh
+      timeout: 300
