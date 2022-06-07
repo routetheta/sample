@@ -1,0 +1,10 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /home
+    # hooks:
+    #   ApplicationStart:
+    #     - location: start_app.sh # アプリケーションを起動するshファイルを指定できます
+    #       timeout: 300
+    #       runas: ec2-user # shを実行するユーザーを指定します
