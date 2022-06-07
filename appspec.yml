@@ -3,10 +3,3 @@ os: linux
 files:
   - source: README.md
     destination: /
-hooks:
-  ApplicationStop:
-    - location: time
-      timeout: 300
-  ApplicationStart:
-    - location: time
-      timeout: 300
