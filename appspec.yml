@@ -1,12 +1,5 @@
 version: 0.0
 os: linux
 files:
-  - source: /
-    destination: /
-hooks:
-  ApplicationStop:
-    - location: hoge.sh
-      timeout: 300
-  ApplicationStart:
-    - location: hoge.sh
-      timeout: 300
+  - source: README.md
+    destination: /home
